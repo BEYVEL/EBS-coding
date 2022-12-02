@@ -1,0 +1,9 @@
+$("h1").click(function() {
+    $("body").css("background-color", "black");  
+   
+     $(".content").fadeIn();
+ });
+ 
+   $(".content").click(function(){
+      $(this).fadeOut();
+   });
